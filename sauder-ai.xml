@@ -1,12 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-  xmlns:media="http://search.yahoo.com/mrss/"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>UBC Sauder - Artificial Intelligence News</title>
     <link>https://www.sauder.ubc.ca/about-ubc-sauder/school-news/artificial-intelligence</link>
     <description>AI news from UBC Sauder School of Business</description>
-    <lastBuildDate>Thu, 13 Aug 2026 05:54:55 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 06:17:51 -0000</lastBuildDate>
     
+    <item>
+      <title><![CDATA[Three human skills AI can’t replace, according to a UBC Sauder instructor]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/three-human-skills-ai-cant-replace-according-ubc-sauder-instructor</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/three-human-skills-ai-cant-replace-according-ubc-sauder-instructor</guid>
+      <description><![CDATA[The faster AI advances, the more important it becomes to recognize what only humans can bring. Timothy Yeung, Lead Product Management Instructor at UBC Sauder Professional Growth, explores why human talent remains essential.]]></description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2026-07/Timothy%20Yeung_Outdoors_Green-compressed.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2026-07/Timothy%20Yeung_Outdoors_Green-compressed.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[This UBC Sauder MBA alum is building sustainable AI infrastructure with global impact]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/ubc-sauder-mba-alum-building-sustainable-ai-infrastructure-global-impact</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/ubc-sauder-mba-alum-building-sustainable-ai-infrastructure-global-impact</guid>
+      <description><![CDATA[As artificial intelligence adoption expands worldwide,  Bikram Singh (UBC MBA ‘23) is focused on ensuring its infrastructure evolves sustainably]]></description>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2026-02/Singh_Bikramjeet_Headshot.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2026-02/Singh_Bikramjeet_Headshot.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Future in Focus: Dr. Mahesh Nagarajan on Bias, Hallucinations, and Building Better AI]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/future-focus-dr-mahesh-nagarajan-bias-hallucinations-and-building-better-ai</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/future-focus-dr-mahesh-nagarajan-bias-hallucinations-and-building-better-ai</guid>
+      <description><![CDATA[In his latest talk—Harnessing the AI Boom: Understanding and Utilizing Large Language Models—Dr. Mahesh Nagarajan offers a crash course on AI design and a reminder for leaders to understand its inherent biases.]]></description>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2025-10/resized_Mahesh-headshot.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2025-10/resized_Mahesh-headshot.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[How the UBC Sauder MBAN helped this alum launch a career in AI]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/breaking-machine-learning-how-ubc-mban-alum-pivoted-career-ai</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/breaking-machine-learning-how-ubc-mban-alum-pivoted-career-ai</guid>
+      <description><![CDATA[Now a Lead Machine Learning Engineer at S&P Global, UBC MBAN alum Vibudh Singh reflects on how the program helped him transition into a career in AI.]]></description>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2025-09/resized_SINGH_VIBUDH_MBAN%20%283%29.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2025-09/resized_SINGH_VIBUDH_MBAN%20%283%29.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Charting a career in AI with the UBC Sauder MBAN]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/charting-career-ai-ubc-sauder-mban</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/charting-career-ai-ubc-sauder-mban</guid>
+      <description><![CDATA[UBC MBAN alum Kook Han shares how the program helped him pivot from a career in finance to artificial intelligence.]]></description>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2025-09/resized_resized_Kook%20Han.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2025-09/resized_resized_Kook%20Han.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Striking the balance between automation and human expertise in business and education]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/striking-balance-between-automation-and-human-expertise-business-and-education</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/striking-balance-between-automation-and-human-expertise-business-and-education</guid>
+      <description><![CDATA[Artificial intelligence (AI) has revolutionized industries, enhancing efficiency, streamlining processes and enabling businesses to harness vast amounts of data. However, as AI continues to advance, questions about its limitations, ethical implications and role in decision-making become increasingly important.]]></description>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2025-04/steve-johnson-_0iV9LmPDn0-unsplash.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2025-04/steve-johnson-_0iV9LmPDn0-unsplash.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Co-op student uses AI to bring a fresh perspective: Meet Jiawei Zhang]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/co-op-student-uses-ai-bring-fresh-perspective-meet-jiawei-zhang</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/co-op-student-uses-ai-bring-fresh-perspective-meet-jiawei-zhang</guid>
+      <description><![CDATA[Frank, who is completing a Master of Business Analytic Degree at University of British Columbia’s Sauder School of Business has joined our team in Toronto for three months in a co-op placement.]]></description>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2024-07/Frank-Photo-for-website.webp" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2024-07/Frank-Photo-for-website.webp" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Four jobs you can get with an MBA that might surprise you]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/four-jobs-you-can-get-mba-might-surprise-you</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/four-jobs-you-can-get-mba-might-surprise-you</guid>
+      <description><![CDATA[Four successful alumni from the UBC Sauder School of Business discuss their innovative careers following their UBC MBA – including artificial intelligence in robotics, ESG consulting, electric vehicle infrastructure, and venture capital in healthcare. Learn more about how these talented UBC alumni secured their roles after graduation.]]></description>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2024-02/Four-Careers-Hero.webp" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2024-02/Four-Careers-Hero.webp" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[This UBC B+MM alum is harnessing entrepreneurship skills for a career in artificial intelligence]]></title>
+      <link>https://www.sauder.ubc.ca/news/school-news/ubc-bmm-alum-harnessing-entrepreneurship-skills-career-artificial-intelligence</link>
+      <guid isPermaLink="true">https://www.sauder.ubc.ca/news/school-news/ubc-bmm-alum-harnessing-entrepreneurship-skills-career-artificial-intelligence</guid>
+      <description><![CDATA[UBC B+MM alum, Sophie Berger, shares her experience co-founding a successful artificial intelligence technology start up and how she applied the entrepreneurial skills she learned at UBC Sauder to drive the company’s success.]]></description>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://www.sauder.ubc.ca/sites/default/files/2024-01/SophieOutdoors.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.sauder.ubc.ca/sites/default/files/2024-01/SophieOutdoors.jpg" medium="image"/>
+    </item>
   </channel>
 </rss>
