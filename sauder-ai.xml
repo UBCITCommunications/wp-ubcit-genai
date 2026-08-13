@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>UBC Sauder - Artificial Intelligence News</title>
+    <link>https://www.sauder.ubc.ca/about-ubc-sauder/school-news/artificial-intelligence</link>
+    <description>AI news from UBC Sauder School of Business</description>
+    <lastBuildDate>Thu, 13 Aug 2026 05:54:55 -0000</lastBuildDate>
+    
+  </channel>
+</rss>
