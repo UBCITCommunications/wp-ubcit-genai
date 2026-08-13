@@ -1,0 +1,35 @@
+name: Scrape Sauder AI News
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'   # every Monday 8am UTC
+  workflow_dispatch:        # also runnable manually from GitHub Actions tab
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # needed to commit the RSS file back
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: python scrape_sauder.py
+
+      - name: Commit RSS file
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sauder-ai.xml
+          git diff --cached --quiet || git commit -m "chore: update Sauder AI RSS feed"
+          git push
