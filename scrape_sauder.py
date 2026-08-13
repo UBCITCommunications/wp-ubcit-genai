@@ -1,89 +1,66 @@
-import re, sys
+import sys, requests
 from datetime import datetime
 from email.utils import format_datetime
-from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 BASE    = "https://www.sauder.ubc.ca"
-TARGET  = f"{BASE}/about-ubc-sauder/school-news/artificial-intelligence"
+API     = (f"{BASE}/api/article_list?_format=json"
+           "&limit=20&order=&type=article_list"
+           "&article_type[]=667&article_topic[]=1144")
 OUT_RSS = "sauder-ai.xml"
 
+HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                   "AppleWebKit/537.36 Chrome/124.0 Safari/537.36"),
+    "Accept": "application/json",
+}
+
 def scrape():
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36"
-            ),
-            viewport={"width": 1280, "height": 800},
-        )
-        page = context.new_page()
-        page.goto(TARGET, wait_until="domcontentloaded", timeout=60000)
+    r = requests.get(API, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    data = r.json()
+    print(f"API returned {len(data)} items")
 
-        try:
-            page.wait_for_selector('main a[href*="/news/school-news/"]', timeout=20000)
-        except PWTimeout:
-            print("ERROR: No news links found after 20s. Page source:")
-            print(page.content()[:3000])
-            browser.close()
-            return []
+    articles = []
+    for item in data:
+        title = (item.get("title") or "").strip()
+        path  = item.get("url") or item.get("path") or ""
+        url   = path if path.startswith("http") else BASE + path
 
-        page.wait_for_timeout(2000)
-        print(f"Page title: {page.title()}")
+        # date — try common field names
+        date_raw = (item.get("date") or item.get("created")
+                    or item.get("field_date") or "")
 
-        articles = page.evaluate("""() => {
-            const articles = [];
-            const seen    = new Set();
-            const main    = document.querySelector('main') || document.body;
+        # image — try common field names, make absolute
+        image = (item.get("image") or item.get("field_image")
+                 or item.get("thumbnail") or "")
+        if image and not image.startswith("http"):
+            image = BASE + image
 
-            // Work backwards from headings — each article heading is preceded by its card link
-            const headings = Array.from(main.querySelectorAll('h2, h3, h4'));
+        category = (item.get("category") or item.get("topic")
+                    or item.get("field_category") or "")
 
-            headings.forEach(h => {
-                const prev = h.previousElementSibling;
+        if title and url:
+            articles.append({"title": title, "url": url,
+                             "date": str(date_raw), "category": str(category),
+                             "image": image})
+            print(f"  [{date_raw}] {title[:70]}")
 
-                if (!prev || prev.tagName !== 'A') return;
-                if (!prev.href.includes('/news/school-news/')) return;
-                if (seen.has(prev.href)) return;
-                seen.add(prev.href);
-
-                const title = h.textContent.trim();
-                let date = '', category = '', image = '';
-
-                let el = h.nextElementSibling;
-                for (let i = 0; i < 6 && el; i++, el = el.nextElementSibling) {
-                    if (el.tagName === 'UL') {
-                        el.querySelectorAll('li').forEach(li => {
-                            const t = li.textContent.trim();
-                            if (/January|February|March|April|May|June|July|August|September|October|November|December/.test(t))
-                                date = t;
-                            else if (t)
-                                category = t;
-                        });
-                    }
-                    const img = el.tagName === 'IMG' ? el : el.querySelector('img');
-                    if (img && img.src) image = img.src;
-                }
-
-                articles.push({ url: prev.href, title, date, category, image });
-            });
-
-            return articles;
-        }""")
-
-        browser.close()
-        print(f"Found {len(articles)} articles")
-        for a in articles:
-            print(f"  [{a['date']}] {a['title'][:70]}")
-        return articles
+    return articles
 
 
 def parse_date(s):
+    # try "Month DD, YYYY" first, then ISO, then now
+    for fmt in ("%B %d, %Y", "%Y-%m-%d", "%Y-%m-%dT%H:%M:%S"):
+        try:
+            return format_datetime(datetime.strptime(s.strip(), fmt))
+        except Exception:
+            pass
+    # Unix timestamp?
     try:
-        return format_datetime(datetime.strptime(s.strip(), "%B %d, %Y"))
+        return format_datetime(datetime.fromtimestamp(int(s)))
     except Exception:
-        return format_datetime(datetime.now())
+        pass
+    return format_datetime(datetime.now())
 
 
 def build_rss(articles):
@@ -112,7 +89,7 @@ def build_rss(articles):
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>UBC Sauder - Artificial Intelligence News</title>
-    <link>{TARGET}</link>
+    <link>{BASE}/about-ubc-sauder/school-news/artificial-intelligence</link>
     <description>AI news from UBC Sauder School of Business</description>
     <lastBuildDate>{now}</lastBuildDate>
     {''.join(items)}
@@ -121,10 +98,16 @@ def build_rss(articles):
 
 
 if __name__ == "__main__":
-    articles = scrape()
+    try:
+        articles = scrape()
+    except Exception as e:
+        print(f"ERROR: {e}")
+        sys.exit(1)
+
     if not articles:
         print("No articles found — RSS not written.")
         sys.exit(1)
+
     rss = build_rss(articles)
     with open(OUT_RSS, "w", encoding="utf-8") as f:
         f.write(rss)
