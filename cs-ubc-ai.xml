@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>UBC Computer Science - AI News</title>
+    <link>https://www.cs.ubc.ca/category/tags/ai</link>
+    <description>AI-tagged news from UBC Department of Computer Science</description>
+    <lastBuildDate>Fri, 14 Aug 2026 18:11:52 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Dr. Peter Yichen Chen honoured with Early Career Researcher Award at 2026 Symposium on Computer Animation]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/07/dr-chen-ecr-sca</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/07/dr-chen-ecr-sca</guid>
+      <description><![CDATA[Assistant Professor Peter Yichen Chen recognized for significant contributions to the computer animation field UBC Computer Science Assistant Professor Peter…]]></description>
+      <pubDate>Wed, 08 Jul 2026 10:21:06 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-07/md8_1025.JPG" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-07/md8_1025.JPG" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[15 new papers from UBC Computer Science at world’s premier machine learning conference]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/07/icml2026</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/07/icml2026</guid>
+      <description><![CDATA[UBC researchers had 15 papers accepted at ICML 2026, including two Spotlight papers UBC Computer Science researchers will be in Seoul, South Korea from July 6 -…]]></description>
+      <pubDate>Thu, 02 Jul 2026 11:06:14 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-07/icml.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-07/icml.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[New curriculum preps undergrads for an AI-driven future]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/05/new-curriculum-preps-undergrads-ai-driven-future</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/05/new-curriculum-preps-undergrads-ai-driven-future</guid>
+      <description><![CDATA[A new campus-wide 100-level course, and separate degree option in computer science, are designed to help UBC students succeed in an AI-driven future. This story…]]></description>
+      <pubDate>Thu, 28 May 2026 11:04:28 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/dr-joanne-fox-teaches-a-class-at-orchard-commons_47755165092_o.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/dr-joanne-fox-teaches-a-class-at-orchard-commons_47755165092_o.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Dr. Kevin Leyton-Brown receives ACM-AAAI Allen Newell Award]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/05/dr-kevin-leyton-brown-receives-acm-aaai-allen-newell-award</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/05/dr-kevin-leyton-brown-receives-acm-aaai-allen-newell-award</guid>
+      <description><![CDATA[UBC Professor Kevin Leyton-Brown honoured with major international computer science award for contributions to AI and machine learning The Association for…]]></description>
+      <pubDate>Wed, 27 May 2026 09:22:21 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/md8_1426.JPG" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/md8_1426.JPG" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[CIFAR selects 3 UBC professors as new Canada CIFAR AI Chairs, 1 as Global Scholar]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/05/cifar-ai-chairs-global-scholar</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/05/cifar-ai-chairs-global-scholar</guid>
+      <description><![CDATA[UBC Computer Science researchers recognized as global leaders in AI UBC Computer Science Assistant Professors Hila Gonen , Mathias Lécuyer and Serena Wang have…]]></description>
+      <pubDate>Mon, 25 May 2026 09:26:31 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-05/cifar-square-01.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-05/cifar-square-01.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Inaugural BC AI Research-to-Adoption Summit a major step forward in bringing AI community in BC together]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/05/bc-ai-summit</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/05/bc-ai-summit</guid>
+      <description><![CDATA[Nearly 250 AI experts in academia, industry and government gathered on May 7, 2026 to explore how BC can turn AI research into real-world applications across…]]></description>
+      <pubDate>Tue, 19 May 2026 15:49:56 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/img_4395.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/img_4395.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Can Canada constrain AI?]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/05/can-canada-constrain-ai</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/05/can-canada-constrain-ai</guid>
+      <description><![CDATA[Dr. Alan Mackworth — professor emeritus with UBC Computer Science — has been studying AI since the 1970s. He’s served as president of the Association for the…]]></description>
+      <pubDate>Thu, 14 May 2026 10:16:12 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/alan-2026.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/alan-2026.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Are you addicted to your AI chatbot? It might be by design]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/04/are-you-addicted-your-ai-chatbot-it-might-be-design</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/04/are-you-addicted-your-ai-chatbot-it-might-be-design</guid>
+      <description><![CDATA[This story was originally posted on UBC News , written by Alex Walls. New research shows some people are developing addictive patterns of AI chatbot use—and it…]]></description>
+      <pubDate>Mon, 27 Apr 2026 08:59:28 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/l-ch-s3jgtj91pio-unsplash.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/l-ch-s3jgtj91pio-unsplash.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[UBC Computer Science publishes 21 papers at top international machine learning conference]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/04/iclr</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/04/iclr</guid>
+      <description><![CDATA[A total of 9 papers were accepted at the International Conference on Learning Representation (ICLR) main conference and 12 papers at the associated workshops…]]></description>
+      <pubDate>Tue, 21 Apr 2026 14:29:38 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-04/iclr.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-04/iclr.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Can AI be a meaningful part of your health care team?]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/04/can-ai-be-meaningful-part-your-health-care-team</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/04/can-ai-be-meaningful-part-your-health-care-team</guid>
+      <description><![CDATA[Professor Cristina Conati and PhD students Kevin Wang and Tawkat Khondaker are computer scientists who are part of an interdisciplinary team at UBC exploring…]]></description>
+      <pubDate>Mon, 20 Apr 2026 10:02:29 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/ai-health.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/ai-health.jpg" medium="image"/>
+    </item>
+  </channel>
+</rss>
