@@ -4,8 +4,17 @@
     <title>UBC Computer Science - AI News</title>
     <link>https://www.cs.ubc.ca/category/tags/ai</link>
     <description>AI-tagged news from UBC Department of Computer Science</description>
-    <lastBuildDate>Mon, 17 Aug 2026 09:31:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 09:36:54 +0000</lastBuildDate>
     
+    <item>
+      <title><![CDATA[Alan Milligan receives Best Master’s Thesis Award from national AI association]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/08/alan-milligan-caiac-thesis-award</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/08/alan-milligan-caiac-thesis-award</guid>
+      <description><![CDATA[MSc graduate Alan Milligan honoured by CAIAC for outstanding work on machine learning optimization problems Alan Milligan , a recent MSc graduate of UBC…]]></description>
+      <pubDate>Mon, 17 Aug 2026 10:05:05 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-08/alan-and-mark.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-08/alan-and-mark.jpg" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Dr. Peter Yichen Chen honoured with Early Career Researcher Award at 2026 Symposium on Computer Animation]]></title>
       <link>https://www.cs.ubc.ca/news/2026/07/dr-chen-ecr-sca</link>
@@ -86,15 +95,6 @@
       <pubDate>Tue, 21 Apr 2026 14:29:38 +0000</pubDate>
       <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-04/iclr.jpg" type="image/jpeg" length="0"/>
       <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-04/iclr.jpg" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Can AI be a meaningful part of your health care team?]]></title>
-      <link>https://www.cs.ubc.ca/news/2026/04/can-ai-be-meaningful-part-your-health-care-team</link>
-      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/04/can-ai-be-meaningful-part-your-health-care-team</guid>
-      <description><![CDATA[Professor Cristina Conati and PhD students Kevin Wang and Tawkat Khondaker are computer scientists who are part of an interdisciplinary team at UBC exploring…]]></description>
-      <pubDate>Mon, 20 Apr 2026 10:02:29 +0000</pubDate>
-      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/ai-health.jpg" type="image/jpeg" length="0"/>
-      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/ai-health.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
