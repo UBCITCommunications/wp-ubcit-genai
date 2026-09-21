@@ -4,8 +4,17 @@
     <title>UBC Computer Science - AI News</title>
     <link>https://www.cs.ubc.ca/category/tags/ai</link>
     <description>AI-tagged news from UBC Department of Computer Science</description>
-    <lastBuildDate>Mon, 07 Sep 2026 14:36:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 15:29:44 +0000</lastBuildDate>
     
+    <item>
+      <title><![CDATA[New Assistant Professor Serena Wang studies evaluation of AI systems — and how it affects society]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/09/serena-wang</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/09/serena-wang</guid>
+      <description><![CDATA[UBC Department of Computer Science Assistant Professor Serena Wang combines social science and computer science to improve evaluation of AI systems When Serena…]]></description>
+      <pubDate>Thu, 10 Sep 2026 14:46:29 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-09/serena1.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-09/serena1.jpg" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Alan Milligan receives Best Master’s Thesis Award from national AI association]]></title>
       <link>https://www.cs.ubc.ca/news/2026/08/alan-milligan-caiac-thesis-award</link>
@@ -86,15 +95,6 @@
       <pubDate>Mon, 27 Apr 2026 08:59:28 +0000</pubDate>
       <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/l-ch-s3jgtj91pio-unsplash.jpg" type="image/jpeg" length="0"/>
       <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/l-ch-s3jgtj91pio-unsplash.jpg" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[UBC Computer Science publishes 21 papers at top international machine learning conference]]></title>
-      <link>https://www.cs.ubc.ca/news/2026/04/iclr</link>
-      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/04/iclr</guid>
-      <description><![CDATA[A total of 9 papers were accepted at the International Conference on Learning Representation (ICLR) main conference and 12 papers at the associated workshops…]]></description>
-      <pubDate>Tue, 21 Apr 2026 14:29:38 +0000</pubDate>
-      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-04/iclr.jpg" type="image/jpeg" length="0"/>
-      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-04/iclr.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
