@@ -4,8 +4,26 @@
     <title>UBC Computer Science - AI News</title>
     <link>https://www.cs.ubc.ca/category/tags/ai</link>
     <description>AI-tagged news from UBC Department of Computer Science</description>
-    <lastBuildDate>Mon, 19 Oct 2026 16:01:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 15:39:06 +0000</lastBuildDate>
     
+    <item>
+      <title><![CDATA[UBC Computer Science presents 14 papers in top natural language processing conference]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/10/emnlp-2026</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/10/emnlp-2026</guid>
+      <description><![CDATA[Researchers present new findings at the Empirical Methods in Natural Language Processing (EMNLP) conference UBC Computer Science researchers will be at the 2026…]]></description>
+      <pubDate>Fri, 23 Oct 2026 13:36:19 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-10/emnlp-hero-new.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-10/emnlp-hero-new.jpg" medium="image"/>
+    </item>
+    <item>
+      <title><![CDATA[Dr. Peter West named Canada CIFAR AI Chair]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/10/peter-west-canada-cifar-ai-chair</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/10/peter-west-canada-cifar-ai-chair</guid>
+      <description><![CDATA[UBC Computer Science Assistant Professor Peter West recognized for remarkable contributions and leadership in artificial intelligence research UBC Computer…]]></description>
+      <pubDate>Mon, 19 Oct 2026 10:23:56 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-10/md8_1185.JPG" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-10/md8_1185.JPG" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[New Assistant Professor Serena Wang studies evaluation of AI systems — and how it affects society]]></title>
       <link>https://www.cs.ubc.ca/news/2026/09/serena-wang</link>
@@ -77,24 +95,6 @@
       <pubDate>Tue, 19 May 2026 15:49:56 +0000</pubDate>
       <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/img_4395.jpg" type="image/jpeg" length="0"/>
       <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/img_4395.jpg" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Can Canada constrain AI?]]></title>
-      <link>https://www.cs.ubc.ca/news/2026/05/can-canada-constrain-ai</link>
-      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/05/can-canada-constrain-ai</guid>
-      <description><![CDATA[Dr. Alan Mackworth — professor emeritus with UBC Computer Science — has been studying AI since the 1970s. He’s served as president of the Association for the…]]></description>
-      <pubDate>Thu, 14 May 2026 10:16:12 +0000</pubDate>
-      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/alan-2026.jpg" type="image/jpeg" length="0"/>
-      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/alan-2026.jpg" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Are you addicted to your AI chatbot? It might be by design]]></title>
-      <link>https://www.cs.ubc.ca/news/2026/04/are-you-addicted-your-ai-chatbot-it-might-be-design</link>
-      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/04/are-you-addicted-your-ai-chatbot-it-might-be-design</guid>
-      <description><![CDATA[This story was originally posted on UBC News , written by Alex Walls. New research shows some people are developing addictive patterns of AI chatbot use—and it…]]></description>
-      <pubDate>Mon, 27 Apr 2026 08:59:28 +0000</pubDate>
-      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/l-ch-s3jgtj91pio-unsplash.jpg" type="image/jpeg" length="0"/>
-      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-04/l-ch-s3jgtj91pio-unsplash.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
