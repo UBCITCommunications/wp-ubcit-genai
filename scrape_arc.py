@@ -4,7 +4,8 @@ from email.utils import format_datetime
 
 BASE    = "https://arc.ubc.ca"
 API     = (f"{BASE}/jsonapi/node/ubc_announcement"
-           "?include=field_announcement_feature_image"
+           "?filter[field_announcement_tags.name]=Artificial_Intelligence"
+           "&include=field_announcement_feature_image"
            "&sort=-created"
            "&page[limit]=20")
 OUT_RSS = "arc-ai.xml"
@@ -87,9 +88,9 @@ def build_rss(articles):
 <rss version="2.0"
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>UBC ARC News</title>
+    <title>UBC ARC - AI News</title>
     <link>{BASE}/news-events</link>
-    <description>News from UBC Advanced Research Computing</description>
+    <description>AI news from UBC Advanced Research Computing</description>
     <lastBuildDate>{now}</lastBuildDate>
     {''.join(items)}
   </channel>
