@@ -4,8 +4,17 @@
     <title>UBC Computer Science - AI News</title>
     <link>https://www.cs.ubc.ca/category/tags/ai</link>
     <description>AI-tagged news from UBC Department of Computer Science</description>
-    <lastBuildDate>Mon, 26 Oct 2026 15:39:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 18:58:53 +0000</lastBuildDate>
     
+    <item>
+      <title><![CDATA[Dr. Dongwook Yoon appointed Canada Research Chair in Responsible Sociotechnical Systems]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/10/dongwook-yoon-crc</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/10/dongwook-yoon-crc</guid>
+      <description><![CDATA[UBC Computer Science Associate Head of Graduate Affairs and Associate Professor Dongwook Yoon recognized for research excellence in computer science Dr…]]></description>
+      <pubDate>Tue, 27 Oct 2026 09:15:59 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-10/profile_2023_landscape.png" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-10/profile_2023_landscape.png" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[UBC Computer Science presents 14 papers in top natural language processing conference]]></title>
       <link>https://www.cs.ubc.ca/news/2026/10/emnlp-2026</link>
@@ -86,15 +95,6 @@
       <pubDate>Mon, 25 May 2026 09:26:31 +0000</pubDate>
       <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-05/cifar-square-01.jpg" type="image/jpeg" length="0"/>
       <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-05/cifar-square-01.jpg" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[Inaugural BC AI Research-to-Adoption Summit a major step forward in bringing AI community in BC together]]></title>
-      <link>https://www.cs.ubc.ca/news/2026/05/bc-ai-summit</link>
-      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/05/bc-ai-summit</guid>
-      <description><![CDATA[Nearly 250 AI experts in academia, industry and government gathered on May 7, 2026 to explore how BC can turn AI research into real-world applications across…]]></description>
-      <pubDate>Tue, 19 May 2026 15:49:56 +0000</pubDate>
-      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/img_4395.jpg" type="image/jpeg" length="0"/>
-      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/img_4395.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
