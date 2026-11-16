@@ -4,8 +4,17 @@
     <title>UBC Computer Science - AI News</title>
     <link>https://www.cs.ubc.ca/category/tags/ai</link>
     <description>AI-tagged news from UBC Department of Computer Science</description>
-    <lastBuildDate>Mon, 09 Nov 2026 19:21:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:04:17 +0000</lastBuildDate>
     
+    <item>
+      <title><![CDATA[A single AI model simulates the behavior of many substances, from sliding sand to folding proteins]]></title>
+      <link>https://www.cs.ubc.ca/news/2026/11/single-ai-model-simulates-behavior-many-substances-sliding-sand-folding-proteins</link>
+      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/11/single-ai-model-simulates-behavior-many-substances-sliding-sand-folding-proteins</guid>
+      <description><![CDATA[By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more. Originally published by MIT News, written…]]></description>
+      <pubDate>Mon, 09 Nov 2026 13:02:51 +0000</pubDate>
+      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-11/mit-worldparticle-01-press_0.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-11/mit-worldparticle-01-press_0.jpg" medium="image"/>
+    </item>
     <item>
       <title><![CDATA[Dr. Dongwook Yoon appointed Canada Research Chair in Responsible Sociotechnical Systems]]></title>
       <link>https://www.cs.ubc.ca/news/2026/10/dongwook-yoon-crc</link>
@@ -86,15 +95,6 @@
       <pubDate>Wed, 27 May 2026 09:22:21 +0000</pubDate>
       <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/md8_1426.JPG" type="image/jpeg" length="0"/>
       <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/2026-05/md8_1426.JPG" medium="image"/>
-    </item>
-    <item>
-      <title><![CDATA[CIFAR selects 3 UBC professors as new Canada CIFAR AI Chairs, 1 as Global Scholar]]></title>
-      <link>https://www.cs.ubc.ca/news/2026/05/cifar-ai-chairs-global-scholar</link>
-      <guid isPermaLink="true">https://www.cs.ubc.ca/news/2026/05/cifar-ai-chairs-global-scholar</guid>
-      <description><![CDATA[UBC Computer Science researchers recognized as global leaders in AI UBC Computer Science Assistant Professors Hila Gonen , Mathias Lécuyer and Serena Wang have…]]></description>
-      <pubDate>Mon, 25 May 2026 09:26:31 +0000</pubDate>
-      <enclosure url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-05/cifar-square-01.jpg" type="image/jpeg" length="0"/>
-      <media:content url="https://www.cs.ubc.ca/sites/default/files/styles/story_thumb/public/thumbnails/2026-05/cifar-square-01.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
